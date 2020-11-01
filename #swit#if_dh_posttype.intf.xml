@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/SWIT/IF_DH_POSTTYPE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Interface für Studihub Posttypes</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/SWIT/IF_DH_POSTTYPE</CLSNAME>
+     <CMPNAME>CREATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Create new post of a type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/SWIT/IF_DH_POSTTYPE</CLSNAME>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Delete post</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/SWIT/IF_DH_POSTTYPE</CLSNAME>
+     <CMPNAME>GET_ALL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get All Posts of a type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/SWIT/IF_DH_POSTTYPE</CLSNAME>
+     <CMPNAME>GET_BY_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get Sinlge Post</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/SWIT/IF_DH_POSTTYPE</CLSNAME>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Update post</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
