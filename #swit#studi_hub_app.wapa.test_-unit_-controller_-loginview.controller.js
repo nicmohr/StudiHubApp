@@ -1,0 +1,1 @@
+sap.ui.define(["Mosbach/StudiHub/controller/LoginView.controller"],function(o){"use strict";QUnit.module("LoginView Controller");QUnit.test("I should test the LoginView controller",function(n){var t=new o;t.onInit();n.ok(t)})});                           

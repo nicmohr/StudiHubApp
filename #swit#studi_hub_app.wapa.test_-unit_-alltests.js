@@ -1,0 +1,1 @@
+sap.ui.define(["Mosbach/StudiHub/test/unit/controller/LoginView.controller"],function(){"use strict"});                                                                                                                                                        

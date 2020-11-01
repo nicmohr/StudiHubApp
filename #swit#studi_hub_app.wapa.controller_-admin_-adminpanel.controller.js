@@ -1,0 +1,3 @@
+sap.ui.define(["Mosbach/StudiHub/controller/base.controller"],function(t){"use strict";return t.extend("Mosbach.StudiHub.controller.Admin.AdminPanel",{extendInit:function(){this.oRouter=sap.ui.core.UIComponent.getRouterFor(this);this.oRouter.getRoute("Ro+
+uteAdminPanel").attachPatternMatched(this._onObjectMatched,this)},_onObjectMatched:function(){this.byId("userList").getBinding("items").refresh(true)},onUserPress:function(t){this.navToProfile(t.getSource().getDescription())},onNewUserPress:function(){th+
+is.oRouter.navTo("RouteNewUser")}})});                                                                                                                                                                                                                         
